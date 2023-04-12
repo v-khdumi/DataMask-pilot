@@ -1,1 +1,1 @@
-gunicorn app:server --timeout 300 --workers 4 --threads 4 --bind 0.0.0.0:8000
+streamlit run app.py
