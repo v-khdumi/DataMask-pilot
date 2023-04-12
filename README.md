@@ -56,4 +56,3 @@ Usage
 	• The application will anonymize the selected columns, save the anonymized data to a new CSV file, upload the file to Azure Blob Storage, and generate a download URL.
 	• The application will send an email notification to the recipient email address specified in the .env file, containing the download URL of the anonymized file.
 	• Download the anonymized file using the provided download link.
-![image](https://user-images.githubusercontent.com/30616704/231569339-4ef412e2-5b6e-4930-84ec-5937cb9c1a6c.png)
