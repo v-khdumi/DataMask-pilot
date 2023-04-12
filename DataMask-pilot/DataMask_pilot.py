@@ -20,6 +20,9 @@ from azure.storage.blob import (
 import urllib
 import datetime
 import os
+import os
+from dotenv import load_dotenv
+from DataMask_pilot.py import main, server
 
 AZURE_CONNECTION_STRING = os.environ["AZURE_CONNECTION_STRING"]
 STORAGE_ACCOUNT_KEY = os.environ["STORAGE_ACCOUNT_KEY"]
@@ -214,4 +217,5 @@ def main():
 
 
 if __name__ == "__main__":
+    load_dotenv(".env.production")
     main()
