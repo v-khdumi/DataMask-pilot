@@ -2,3 +2,4 @@ streamlit
 pandas
 sendgrid
 azure-storage-blob
+python-dotenv
