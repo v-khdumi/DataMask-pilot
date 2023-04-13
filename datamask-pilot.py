@@ -33,9 +33,8 @@ SENDGRID_API_KEY = os.getenv("SENDGRID_API_KEY")
 SENDER_EMAIL = os.getenv("SENDER_EMAIL")
 RECIPIENT_EMAIL = os.getenv("RECIPIENT_EMAIL")
 
-USERNAME = os.getenv("USERNAME")
-PASSWORD = os.getenv("PASSWORD")
-
+USERNAME = "pharma1"
+PASSWORD = "Parolamea123$"
 
 # Add this function to hide the "Made with Streamlit" footer
 def hide_streamlit_footer():
