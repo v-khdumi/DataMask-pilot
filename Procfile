@@ -1,1 +1,1 @@
-web: gunicorn -w 4 -k uvicorn.workers.UvicornWorker datamask-pilot.py:app
+web: gunicorn -w 4 -k uvicorn.workers.UvicornWorker maskdata-pilot:app
