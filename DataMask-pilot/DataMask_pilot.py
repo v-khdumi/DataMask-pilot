@@ -21,7 +21,6 @@ import urllib
 import datetime
 import os
 from dotenv import load_dotenv
-from your_original_app_file import main
 
 AZURE_CONNECTION_STRING = os.environ["AZURE_CONNECTION_STRING"]
 STORAGE_ACCOUNT_KEY = os.environ["STORAGE_ACCOUNT_KEY"]
