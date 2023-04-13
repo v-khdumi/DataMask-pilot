@@ -32,10 +32,6 @@ SENDGRID_API_KEY = os.environ["SENDGRID_API_KEY"]
 SENDER_EMAIL = os.environ["SENDER_EMAIL"]
 RECIPIENT_EMAIL = os.environ["RECIPIENT_EMAIL"]
 
-USERNAME = os.environ["APP_USERNAME"]
-PASSWORD = os.environ["APP_PASSWORD"]
-
-
 
 # Configure authentication
 USERNAME = "pharma1"
