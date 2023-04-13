@@ -21,21 +21,21 @@ import urllib
 import datetime
 import os
 from dotenv import load_dotenv
-from your_original_app_file import main
 
-AZURE_CONNECTION_STRING = os.environ["AZURE_CONNECTION_STRING"]
-STORAGE_ACCOUNT_KEY = os.environ["STORAGE_ACCOUNT_KEY"]
-AZURE_CONTAINER_NAME = os.environ["AZURE_CONTAINER_NAME"]
-STORAGE_ACCOUNT_NAME = os.environ["STORAGE_ACCOUNT_NAME"]
+load_dotenv()
 
-SENDGRID_API_KEY = os.environ["SENDGRID_API_KEY"]
-SENDER_EMAIL = os.environ["SENDER_EMAIL"]
-RECIPIENT_EMAIL = os.environ["RECIPIENT_EMAIL"]
+AZURE_CONNECTION_STRING = os.getenv("AZURE_CONNECTION_STRING")
+STORAGE_ACCOUNT_KEY = os.getenv("STORAGE_ACCOUNT_KEY")
+AZURE_CONTAINER_NAME = os.getenv("AZURE_CONTAINER_NAME")
+STORAGE_ACCOUNT_NAME = os.getenv("STORAGE_ACCOUNT_NAME")
 
+SENDGRID_API_KEY = os.getenv("SENDGRID_API_KEY")
+SENDER_EMAIL = os.getenv("SENDER_EMAIL")
+RECIPIENT_EMAIL = os.getenv("RECIPIENT_EMAIL")
 
-# Configure authentication
-USERNAME = "pharma1"
-PASSWORD = "Parolamea123$"
+USERNAME = os.getenv("USERNAME")
+PASSWORD = os.getenv("PASSWORD")
+
 
 # Add this function to hide the "Made with Streamlit" footer
 def hide_streamlit_footer():
