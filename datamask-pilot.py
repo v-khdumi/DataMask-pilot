@@ -22,6 +22,8 @@ import datetime
 import os
 from dotenv import load_dotenv
 
+app = streamlit.server.server.Server.get_current()._app
+
 load_dotenv()
 
 AZURE_CONNECTION_STRING = os.getenv("AZURE_CONNECTION_STRING")
